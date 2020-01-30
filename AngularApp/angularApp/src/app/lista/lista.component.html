@@ -1,0 +1,37 @@
+<nb-card>
+  <nb-card-body>
+    <label  >Inserte el código del producto</label>
+    <br>
+    <br>
+    <input nbInput status="info" (change)="oncodigo($event)" >
+    <br>
+    <br>
+    <button nbButton status="success"  style="width: inherit" (click)="buscarp()" >Consultar</button>
+  </nb-card-body>
+
+</nb-card>
+
+<div>
+  <nb-card>
+    <table style="width:100%">
+      <tr>
+        <th>Codigo</th>
+        <th>Desprpcion</th>
+        <th>Precio de venta</th>
+        <th>Cantitad</th>
+        <th >Total</th>
+      </tr>
+      <tr>
+        <td>{{codigo}}</td>
+        <td>{{descripcion}}</td>
+        <td>{{precio}}</td>
+        <td>{{cantidad}}</td>
+        <td>{{total}}</td>
+
+      </tr>
+    </table>
+
+  </nb-card>
+
+</div>
+

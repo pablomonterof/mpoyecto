@@ -1,0 +1,23 @@
+<nb-layout-column style="align-self: center">
+  <div style="text-align: center; align-self: center"   >
+    <nb-card style="    align-self: center" >
+
+      <nb-card-body style="width: inherit">
+
+        <input *ngIf="control == 1"  nbInput status="danger" readonly style="text-align: center ; width: inherit"  placeholder="Usuario o clave Incorrecto" >
+        <br>
+        <br>
+        <input nbInput   placeholder="Nombre de usuario" (change)="onusernama($event)" >
+        <br>
+        <br>
+        <input nbInput placeholder="Contaseña" type="password" (change)="onpass($event)" >
+      </nb-card-body>
+      <nb-card-footer>
+        <button nbButton   (click)="clicklogin()"  > Iniciar Sesión </button> &nbsp;
+        <button nbButton status="danger"   > Olvidé la contraseña </button>
+      </nb-card-footer>
+    </nb-card>
+  </div>
+
+</nb-layout-column>
+

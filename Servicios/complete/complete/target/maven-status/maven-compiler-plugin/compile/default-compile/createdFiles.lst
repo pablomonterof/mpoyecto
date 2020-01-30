@@ -1,0 +1,5 @@
+com\example\restservice\RestServiceApplication.class
+com\example\restservice\UsuarioController.class
+com\example\restservice\Producto.class
+com\example\restservice\ProductoController.class
+com\example\restservice\Usuario.class
