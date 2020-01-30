@@ -1,1 +1,1 @@
-Mover la carpeta Archivos en el disco c
+Mover la carpeta Archivos al disco c
